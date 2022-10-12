@@ -5,13 +5,11 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
 import java.io.IOException;
 
 
 public class SceneManager
 {
-
 
     private static SceneManager m_instance = null;
 
@@ -27,8 +25,6 @@ public class SceneManager
         }
         return m_instance;
     }
-
-
 
     public void changeScene(ActionEvent event, String FXMLFileName) throws IOException
     {

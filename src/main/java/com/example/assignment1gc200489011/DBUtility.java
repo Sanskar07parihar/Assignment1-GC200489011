@@ -10,7 +10,8 @@ public class DBUtility {
     private static String password = DBCredentials.password;
 
 
-    private static String connectURL = "jdbc:mysql://127.0.0.1:3306/world";
+    //AWS connection
+    private static String connectURL = "jdbc:mysql://172.31.22.43:3306/Sanskar200489011";
 
 
     public static ArrayList<People> getPopulationFromDB()

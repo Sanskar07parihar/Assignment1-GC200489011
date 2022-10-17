@@ -13,6 +13,7 @@ public class Main extends Application {
 
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("population-tableview.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
+
         stage.setTitle("Population");
         stage.setScene(scene);
         stage.show();
